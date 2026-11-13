@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Information och utvärdering av CSS-ramverket Bulma.">
+    <title>Bulma</title>
+
+    <!-- Bulma CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/bulma-custom.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Huvudmeny">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item has-text-weight-bold" href="index.html">
+                        CSS-ramverk
+                    </a>
+                </div>
+
+                <div class="navbar-menu is-active">
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="index.html">Hem</a>
+                        <a class="navbar-item" href="bootstrap.html">Bootstrap</a>
+                        <a class="navbar-item is-active" href="bulma.html" aria-current="page">Bulma</a>
+                        <a class="navbar-item" href="publicering.html">Publicering</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section class="section">
+            <div class="intro-panel p-5">
+                <h1 class="title is-2">Bulma</h1>
+                <p class="subtitle is-5">
+                    Bulma är ett modernt CSS-ramverk som gör det enkelt
+                    att skapa responsiva och stilrena webbplatser.
+                    Ramverket bygger på flexbox och använder färdiga
+                    CSS-klasser för att skapa olika layouter och komponenter.
+                </p>
+
+                <a href="https://bulma.io/" target="_blank"
+                   rel="noopener noreferrer" class="button is-success">
+                    Besök Bulmas webbplats
+                </a>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="title is-3">Om Bulma</h2>
+
+            <div class="content">
+                <p>
+                    Bulma är ett kostnadsfritt CSS-ramverk med öppen källkod
+                    som används för att utveckla responsiva webbplatser.
+                    Det innehåller färdiga klasser för bland annat knappar,
+                    navigering, formulär, tabeller och layouter.
+                </p>
+
+                <p>
+                    Ramverket bygger på Flexbox, vilket gör det möjligt
+                    att skapa flexibla layouter som anpassar sig efter
+                    olika skärmstorlekar. En skillnad jämfört med vissa
+                    andra ramverk är att Bulma fokuserar på CSS och inte
+                    kräver JavaScript för sina grundläggande komponenter.
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="title is-3">Utvärdering</h2>
+
+            <div class="columns is-variable is-4">
+                <div class="column">
+                    <div class="evaluation-card box">
+                        <h3 class="title is-4">Fördelar</h3>
+                        <div class="content">
+                            <ul>
+                                <li>Enkelt och tydligt klassnamnssystem.</li>
+                                <li>Bygger på Flexbox och ger flexibla layouter.</li>
+                                <li>Responsiv design med färdiga hjälparklasser.</li>
+                                <li>Komponenterna är lätta att anpassa med egen CSS.</li>
+                                <li>Kräver inte JavaScript för grundläggande styling.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="evaluation-card box">
+                        <h3 class="title is-4">Nackdelar</h3>
+                        <div class="content">
+                            <ul>
+                                <li>Har ett mindre ekosystem än Bootstrap.</li>
+                                <li>Innehåller färre färdiga komponenter.</li>
+                                <li>Vissa mer avancerade funktioner måste byggas själv.</li>
+                                <li>Kan kräva extra CSS för mer specifika designer.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="title is-4 mt-5">Mina erfarenheter</h3>
+            <p>
+                Här kommer jag att beskriva mina egna erfarenheter av
+                att arbeta med Bulma, till exempel hur enkelt ramverket
+                var att lära sig, hur dokumentationen fungerade och
+                hur mycket anpassad CSS som behövdes.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2 class="title is-3">Throne of Glass – Bokserie</h2>
+
+            <div class="content">
+                <p>
+                    Tabellen visar böckerna i min föredragna läsordning.
+                    Serien är skriven av Sarah J. Maas och tillhör
+                    huvudsakligen fantasygenren med inslag av romantik.
+                </p>
+
+                <p>
+                    The Assassin's Blade är en samling noveller som fungerar
+                    som en prequel. Trots att den publicerades senare än
+                    seriens första roman anser jag att den bör läsas först,
+                    eftersom den ger viktig bakgrund till resten av serien.
+                </p>
+            </div>
+
+            <div class="table-container">
+                <table class="table is-striped is-hoverable is-fullwidth">
+                    <thead>
+                        <tr>
+                            <th scope="col">Läsordning</th>
+                            <th scope="col">Boktitel</th>
+                            <th scope="col">Författare</th>
+                            <th scope="col">Utgivningsår</th>
+                            <th scope="col">Genre</th>
+                            <th scope="col">Betyg</th>
+                            <th scope="col">Läst antal gånger</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>The Assassin's Blade</td>
+                            <td>Sarah J. Maas</td>
+                            <td>2014</td>
+                            <td>Fantasy</td>
+                            <td>5/5</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Throne of Glass</td>
+                            <td>Sarah J. Maas</td>
+                            <td>2012</td>
+                            <td>Fantasy</td>
+                            <td>5/5</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Crown of Midnight</td>
+                            <td>Sarah J. Maas</td>
+                            <td>2013</td>
+                            <td>Fantasy</td>
+                            <td>5/5</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Heir of Fire</td>
+                            <td>Sarah J. Maas</td>
+                            <td>2014</td>
+                            <td>Fantasy</td>
+                            <td>5/5</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Queen of Shadows</td>
+                            <td>Sarah J. Maas</td>
+                            <td>2015</td>
+                            <td>Fantasy</td>
+                            <td>5/5</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Empire of Storms</td>
+                            <td>Sarah J. Maas</td>
+                            <td>2016</td>
+                            <td>Fantasy</td>
+                            <td>4/5</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Tower of Dawn</td>
+                            <td>Sarah J. Maas</td>
+                            <td>2017</td>
+                            <td>Fantasy</td>
+                            <td>3/5</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Kingdom of Ash</td>
+                            <td>Sarah J. Maas</td>
+                            <td>2018</td>
+                            <td>Fantasy</td>
+                            <td>5/5</td>
+                            <td>2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="title is-3">Lägg till en bok</h2>
+
+            <p class="mb-4">
+                Formuläret nedan visar hur nya böcker skulle kunna
+                registreras i boktabellen.
+            </p>
+
+            <form action="#" method="get" class="book-form box">
+
+                <div class="field">
+                    <label class="label" for="book-title">Boktitel</label>
+                    <div class="control">
+                        <input class="input" type="text" id="book-title"
+                               name="book-title" required>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label" for="author">Författare</label>
+                    <div class="control">
+                        <input class="input" type="text" id="author"
+                               name="author" required>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label" for="year">Utgivningsår</label>
+                    <div class="control">
+                        <input class="input" type="number" id="year"
+                               name="year" min="1" max="2100" required>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label" for="genre">Genre</label>
+                    <div class="control">
+                        <div class="select is-fullwidth">
+                            <select id="genre" name="genre" required>
+                                <option value="" selected disabled>Välj genre</option>
+                                <option value="Fantasy">Fantasy</option>
+                                <option value="Romantik">Romantik</option>
+                                <option value="Deckare">Deckare</option>
+                                <option value="Science fiction">Science fiction</option>
+                                <option value="Övrigt">Övrigt</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label" for="rating">Betyg</label>
+                    <div class="control">
+                        <div class="select is-fullwidth">
+                            <select id="rating" name="rating" required>
+                                <option value="" selected disabled>Välj betyg</option>
+                                <option value="1">1/5</option>
+                                <option value="2">2/5</option>
+                                <option value="3">3/5</option>
+                                <option value="4">4/5</option>
+                                <option value="5">5/5</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label" for="notes">Anteckningar</label>
+                    <div class="control">
+                        <textarea class="textarea" id="notes" name="notes"
+                                  rows="4"></textarea>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="checkbox">
+                        <input type="checkbox" id="read-twice"
+                               name="read-twice" value="yes">
+                        Jag har läst boken mer än en gång.
+                    </label>
+                </div>
+
+                <div class="field mt-4">
+                    <div class="control">
+                        <button type="submit" class="button is-success">
+                            Lägg till bok
+                        </button>
+                    </div>
+                </div>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="site-footer has-text-centered py-4">
+        <p>© 2026 CSS-ramverk</p>
+    </footer>
+
+</body>
+</html>

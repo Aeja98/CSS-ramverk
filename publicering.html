@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Information om hur webbplatsen publiceras med hjälp av Netlify.">
+    <title>Publicering</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">CSS-ramverk</a>
+
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="bootstrap.html">Bootstrap</a></li>
+                <li><a href="bulma.html">Bulma</a></li>
+                <li><a href="publicering.html" aria-current="page">Publicering</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Publicering av webbplatsen</h1>
+            <p>
+                Här beskriver jag hur webbplatsen publiceras på internet
+                med hjälp av publiceringsplattformen Netlify.
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>Vad innebär publicering?</h2>
+
+            <p>
+                När en webbplats är färdigutvecklad behöver den publiceras
+                för att andra ska kunna besöka och använda den via internet.
+                Det innebär att webbplatsens filer placeras på en webbserver
+                som gör dem tillgängliga genom en webbadress.
+            </p>
+
+            <p>
+                Det finns flera olika tjänster som erbjuder webbpublicering.
+                För den här webbplatsen har jag valt att använda Netlify,
+                eftersom plattformen gör det enkelt att publicera statiska
+                webbplatser utan att behöva hantera en egen webbserver.
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>Netlify</h2>
+
+            <p>
+                <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">
+                    Netlify
+                </a>
+                är en plattform för att bygga, driftsätta och publicera
+                webbplatser. Den kan bland annat användas för statiska
+                webbplatser som består av HTML, CSS och JavaScript.
+            </p>
+
+            <p>
+                En fördel med Netlify är att plattformen kan kopplas
+                direkt till ett GitHub-repository. När ändringar skickas
+                till repositoryt kan Netlify automatiskt bygga och
+                publicera den uppdaterade webbplatsen.
+            </p>
+
+            <p>
+                Netlify erbjuder även en webbadress till den publicerade
+                webbplatsen, vilket gör det enkelt att dela den med andra.
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>Hur publiceringen går till</h2>
+
+            <p>
+                Publiceringen av den här webbplatsen görs i flera steg:
+            </p>
+
+            <ol>
+                <li>
+                    Webbplatsens filer skapas och testas lokalt på datorn.
+                </li>
+                <li>
+                    Projektet laddas upp till ett GitHub-repository.
+                </li>
+                <li>
+                    GitHub-repositoryt kopplas till ett konto på Netlify.
+                </li>
+                <li>
+                    Netlify konfigureras så att webbplatsens HTML-filer
+                    och tillhörande mappar publiceras från projektets rotmapp.
+                </li>
+                <li>
+                    Netlify publicerar webbplatsen och skapar en webbadress
+                    där den kan besökas.
+                </li>
+            </ol>
+
+            <p>
+                När projektet är kopplat till GitHub kan framtida ändringar
+                publiceras automatiskt när den uppdaterade koden skickas
+                till repositoryt.
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>Fördelar och nackdelar</h2>
+
+            <div class="framework-container">
+
+                <article class="framework-card">
+                    <h3>Fördelar</h3>
+                    <ul>
+                        <li>Enkelt att komma igång och publicera webbplatser.</li>
+                        <li>Kan kopplas direkt till GitHub.</li>
+                        <li>Automatiska uppdateringar när projektet ändras.</li>
+                        <li>Erbjuder en webbadress för den publicerade webbplatsen.</li>
+                        <li>Det behövs ingen egen webbserver för enklare statiska webbplatser.</li>
+                    </ul>
+                </article>
+
+                <article class="framework-card">
+                    <h3>Nackdelar</h3>
+                    <ul>
+                        <li>Vissa funktioner och resurser kan vara begränsade beroende på abonnemang.</li>
+                        <li>Det krävs ett konto för att använda plattformen.</li>
+                        <li>Inställningarna kan kännas ovana i början.</li>
+                        <li>Man är beroende av en extern tjänst för att webbplatsen ska vara tillgänglig.</li>
+                    </ul>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Min erfarenhet</h2>
+
+            <p>
+                Jag valde Netlify eftersom det är en smidig lösning för
+                att publicera en webbplats som denna. Möjligheten att
+                koppla plattformen till GitHub gör det enkelt att hålla
+                webbplatsen uppdaterad utan att behöva ladda upp filerna
+                manuellt varje gång.
+            </p>
+
+            <p>
+                Det är också praktiskt att kunna testa webbplatsen lokalt
+                innan ändringarna publiceras. På så sätt kan jag kontrollera
+                att både innehåll och layout fungerar som de ska innan
+                den uppdaterade versionen blir tillgänglig på internet.
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>Den publicerade webbplatsen</h2>
+
+            <p>
+                När webbplatsen är publicerad kan den besökas via sin
+                Netlify-adress.
+            </p>
+
+            <p>
+                <em>Här lägger jag till en länk till den färdiga webbplatsen
+                när publiceringen är klar.</em>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CSS-ramverk</p>
+    </footer>
+
+</body>
+</html>
