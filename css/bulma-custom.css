@@ -7,10 +7,6 @@
 }
 
 /* navigation */
-header,
-header .navbar {
-    background-color: var(--mint-leaf);
-}
 
 header .navbar > .container {
     display: flex;

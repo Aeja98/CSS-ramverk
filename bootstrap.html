@@ -29,28 +29,21 @@
     </header>
 
     <main class="container py-4">
-
-        <section class="p-4 p-md-5 mb-4 rounded-3 introduction">
+        <section class="p-4 p-md-5 mb-4 rounded-3 introduction bg-success-subtle">
             <h1 class="display-5 fw-bold">Bootstrap</h1>
             <p class="lead">
-                Bootstrap är ett populärt CSS-ramverk som gör det enklare
-                att skapa responsiva och användarvänliga webbplatser.
-                Ramverket innehåller färdiga komponenter och ett
-                flexibelt rutnätssystem.
+                Bootstrap är ett populärt CSS-ramverk som gör det enklare att skapa responsiva och användarvänliga webbplatser. Ramverket innehåller färdiga komponenter och ett flexibelt rutnätssystem.
             </p>
             <a href="https://getbootstrap.com/" target="_blank"
                rel="noopener noreferrer" class="btn btn-success">
-                Besök Bootstraps webbplats
+                Bootstraps webbplats
             </a>
         </section>
 
         <section class="mb-5">
             <h2>Om Bootstrap</h2>
             <p>
-                Bootstrap är ett kostnadsfritt ramverk med öppen källkod
-                som används för att utveckla responsiva webbplatser.
-                Det innehåller färdiga CSS-klasser för bland annat
-                knappar, navigering, formulär, tabeller och layouter.
+                Bootstrap är ett kostnadsfritt ramverk med öppen källkod som används för att utveckla responsiva webbplatser. Det innehåller färdiga CSS-klasser för bland annat knappar, navigering, formulär, tabeller och layouter.
             </p>
             <p>
                 En av Bootstraps främsta funktioner är dess
@@ -66,52 +59,47 @@
 
             <div class="row g-4">
                 <div class="col-md-6">
-                    <div class="evaluation-card h-100 p-4 rounded">
+                    <div class="h-100 p-2 rounded bg-success-subtle">
                         <h3>Fördelar</h3>
                         <ul>
-                            <li>Enkelt att komma igång med.</li>
                             <li>Stort utbud av färdiga komponenter.</li>
-                            <li>Bra stöd för responsiv design.</li>
+                            <li>Enkelt att skapa responsiva layouter.</li>
+                            <li>Användbart och flexibelt grid-system.</li>
+                            <li>Minskar behovet av egen CSS.</li>
                             <li>Omfattande dokumentation och många exempel.</li>
-                            <li>Stort användarcommunity.</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="col-md-6">
-                    <div class="evaluation-card h-100 p-4 rounded">
+                    <div class="h-100 p-2 rounded bg-success-subtle">
                         <h3>Nackdelar</h3>
                         <ul>
-                            <li>Webbplatser kan lätt få ett liknande utseende.</li>
+                            <li>Kan vara svårt att lära sig i början.</li>
                             <li>Många CSS-klasser kan göra HTML-koden omfattande.</li>
+                            <li>Webbplatser kan lätt få ett liknande utseende.</li>
                             <li>Egna designändringar kan kräva extra CSS.</li>
-                            <li>Vissa komponenter kräver även JavaScript.</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
             <h3 class="mt-4">Mina erfarenheter</h3>
-            <p>
-                Här kommer jag att beskriva mina egna erfarenheter av
-                att arbeta med Bootstrap, till exempel hur enkelt
-                ramverket var att lära sig, hur dokumentationen
-                fungerade och hur mycket anpassad CSS som behövdes.
-            </p>
+                <p>
+                    Jag tyckte att Bootstrap var ganska svårt att förstå i början
+                    eftersom många klasser och funktioner var nya för mig.
+                    Jag använde framför allt
+                    <a href="https://bootstrap-cheatsheet.themeselection.com/"
+                    target="_blank" rel="noopener noreferrer">Bootstrap CheatSheet</a>
+                    för att förstå vad de olika klasserna gjorde. När jag väl kom in i arbetssättet gick utvecklingen snabbare. Jag behövde bara skriva lite egen CSS för navigeringen och
+                    sidfoten, medan ramverkets färdiga komponenter och grid-system gjorde resten av arbetet enklare. Jag uppskattade särskilt att responsiviteten till stor del redan var inbyggd.
+                </p>
         </section>
 
         <section class="mb-5">
             <h2>Throne of Glass – Bokserie</h2>
             <p>
-                Tabellen visar böckerna i min föredragna läsordning.
-                Serien är skriven av Sarah J. Maas och tillhör
-                huvudsakligen fantasygenren med inslag av romantik.
-            </p>
-            <p>
-                The Assassin's Blade är en samling noveller som fungerar
-                som en prequel. Trots att den publicerades senare än
-                seriens första roman anser jag att den bör läsas först,
-                eftersom den ger viktig bakgrund till resten av serien.
+                Tabellen visar böckerna i min föredragna läsordning. Serien är skriven av Sarah J. Maas och tillhör huvudsakligen fantasygenren med inslag av romantik.
             </p>
 
             <div class="table-responsive">
@@ -205,14 +193,13 @@
             </div>
         </section>
 
-        <section class="mb-5">
+        <section class="mb-3 p-3 rounded bg-success-subtle">
             <h2>Lägg till en bok</h2>
             <p>
-                Formuläret nedan visar hur nya böcker skulle kunna
-                registreras i boktabellen.
+                Formuläret nedan visar hur nya böcker skulle kunna registreras i boktabellen.
             </p>
 
-            <form action="#" method="get" class="p-4 rounded book-form">
+            <form action="#" method="get" class="p-4 rounded">
 
                 <div class="mb-3">
                     <label for="book-title" class="form-label">Boktitel</label>
@@ -266,7 +253,7 @@
                     <input class="form-check-input" type="checkbox"
                            id="read-twice" name="read-twice" value="yes">
                     <label class="form-check-label" for="read-twice">
-                        Jag har läst boken mer än en gång.
+                        Jag har läst klart boken.
                     </label>
                 </div>
 

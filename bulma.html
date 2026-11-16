@@ -16,7 +16,7 @@
 <body>
 
     <header>
-        <nav class="navbar" role="navigation" aria-label="Huvudmeny">
+        <nav class="navbar has-background-success" role="navigation" aria-label="Huvudmeny">
             <div class="container">
                 <div class="navbar-brand">
                     <a class="navbar-item has-text-weight-bold" href="index.html">
@@ -39,18 +39,15 @@
     <main class="container">
 
         <section class="section">
-            <div class="intro-panel p-5">
+            <div class="p-5 has-background-success">
                 <h1 class="title is-2">Bulma</h1>
-                <p class="subtitle is-5">
-                    Bulma är ett modernt CSS-ramverk som gör det enkelt
-                    att skapa responsiva och stilrena webbplatser.
-                    Ramverket bygger på flexbox och använder färdiga
-                    CSS-klasser för att skapa olika layouter och komponenter.
+                <p class="subtitle is-5 has-text-black">
+                    Bulma är ett modernt CSS-ramverk som gör det enkelt att skapa responsiva och stilrena webbplatser. Ramverket bygger på flexbox och använder färdiga CSS-klasser för att skapa olika layouter och komponenter.
                 </p>
 
                 <a href="https://bulma.io/" target="_blank"
-                   rel="noopener noreferrer" class="button is-success">
-                    Besök Bulmas webbplats
+                   rel="noopener noreferrer" class="button has-background-black is-outlined is-success">
+                    Bulmas webbplats
                 </a>
             </div>
         </section>
@@ -60,18 +57,11 @@
 
             <div class="content">
                 <p>
-                    Bulma är ett kostnadsfritt CSS-ramverk med öppen källkod
-                    som används för att utveckla responsiva webbplatser.
-                    Det innehåller färdiga klasser för bland annat knappar,
-                    navigering, formulär, tabeller och layouter.
+                    Bulma är ett kostnadsfritt CSS-ramverk med öppen källkod som används för att utveckla responsiva webbplatser. Det innehåller färdiga klasser för bland annat knappar, navigering, formulär, tabeller och layouter.
                 </p>
 
                 <p>
-                    Ramverket bygger på Flexbox, vilket gör det möjligt
-                    att skapa flexibla layouter som anpassar sig efter
-                    olika skärmstorlekar. En skillnad jämfört med vissa
-                    andra ramverk är att Bulma fokuserar på CSS och inte
-                    kräver JavaScript för sina grundläggande komponenter.
+                    Ramverket bygger på Flexbox, vilket gör det möjligt att skapa flexibla layouter som anpassar sig efter olika skärmstorlekar. En skillnad jämfört med vissa andra ramverk är att Bulma fokuserar på CSS och inte kräver JavaScript för sina grundläggande komponenter.
                 </p>
             </div>
         </section>
@@ -81,14 +71,14 @@
 
             <div class="columns is-variable is-4">
                 <div class="column">
-                    <div class="evaluation-card box">
+                    <div class="box">
                         <h3 class="title is-4">Fördelar</h3>
                         <div class="content">
                             <ul>
                                 <li>Enkelt och tydligt klassnamnssystem.</li>
                                 <li>Bygger på Flexbox och ger flexibla layouter.</li>
-                                <li>Responsiv design med färdiga hjälparklasser.</li>
-                                <li>Komponenterna är lätta att anpassa med egen CSS.</li>
+                                <li>Responsiv design utan behov av många egna media queries.</li>
+                                <li>Färdiga komponenter som går att anpassa med egen CSS.</li>
                                 <li>Kräver inte JavaScript för grundläggande styling.</li>
                             </ul>
                         </div>
@@ -96,7 +86,7 @@
                 </div>
 
                 <div class="column">
-                    <div class="evaluation-card box">
+                    <div class="box">
                         <h3 class="title is-4">Nackdelar</h3>
                         <div class="content">
                             <ul>
@@ -111,12 +101,12 @@
             </div>
 
             <h3 class="title is-4 mt-5">Mina erfarenheter</h3>
-            <p>
-                Här kommer jag att beskriva mina egna erfarenheter av
-                att arbeta med Bulma, till exempel hur enkelt ramverket
-                var att lära sig, hur dokumentationen fungerade och
-                hur mycket anpassad CSS som behövdes.
-            </p>
+                <p>
+                    Jag tyckte att Bulma var relativt enkelt att komma igång med eftersom många klassnamn var tydliga och några funktioner liknade dem i Bootstrap. Dokumentationen var också lätt att förstå och hitta i, så jag använde framför allt
+                    <a href="https://bulma.io/documentation/"
+                    target="_blank" rel="noopener noreferrer">Bulmas dokumentation</a>
+                    som hjälp under arbetet. Jag uppskattade särskilt att responsiviteten till stor del sköttes automatiskt genom ramverkets färdiga layoutsystem. Jag behövde bara skriva egen CSS för navigeringen och sidfoten för att få dem att passa ihop med resten av webbplatsen.
+                </p>
         </section>
 
         <section class="section">
@@ -124,16 +114,7 @@
 
             <div class="content">
                 <p>
-                    Tabellen visar böckerna i min föredragna läsordning.
-                    Serien är skriven av Sarah J. Maas och tillhör
-                    huvudsakligen fantasygenren med inslag av romantik.
-                </p>
-
-                <p>
-                    The Assassin's Blade är en samling noveller som fungerar
-                    som en prequel. Trots att den publicerades senare än
-                    seriens första roman anser jag att den bör läsas först,
-                    eftersom den ger viktig bakgrund till resten av serien.
+                    Tabellen visar böckerna i min föredragna läsordning. Serien är skriven av Sarah J. Maas och tillhör huvudsakligen fantasygenren med inslag av romantik.
                 </p>
             </div>
 
@@ -307,7 +288,7 @@
                     <label class="checkbox">
                         <input type="checkbox" id="read-twice"
                                name="read-twice" value="yes">
-                        Jag har läst boken mer än en gång.
+                        Jag har läst klart boken.
                     </label>
                 </div>
 
